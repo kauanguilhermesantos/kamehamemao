@@ -1,0 +1,21 @@
+# Ambiente virtual (recriar com: python -m venv .venv + pip install -r requirements.txt)
+.venv/
+venv/
+env/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Modelos do MediaPipe: o main.py baixa sozinho na primeira execução (~13 MB)
+*.task
+
+# Recorde local de cada jogador
+recorde.txt
+
+# Editores e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
